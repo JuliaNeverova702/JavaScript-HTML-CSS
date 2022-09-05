@@ -103,3 +103,37 @@
   let user_name = prompt('What is your name?', 'John');
   alert(`Your name is ${user_name}`);
 </code></pre>
+
+
+<img src="https://www.w3.org/2008/site/images/logo-w3c-screen-lg.png" alt="W3C" width="220" height="140">
+
+
+<audio src="путь_к_аудио-файлу" controls></audio>
+
+Несколько вариантов аудио для разных браузеров:  
+<audio controls>
+  <source src="https://www.w3schools.com/html/horse.ogg">
+  <source src="https://www.w3schools.com/html/horse.mp3">
+</audio>
+
+Тег video имеет несколько важных атрибутов:  
+controls — Добавляет элементы управления для видеоплеера  
+autoplay — Автоматическое воспроизведение после загрузки видео  
+width — Ширина видеоплеера  
+height — Высота видеоплеера  
+
+<video width="200" height="200" controls>
+    <source src="https://example.com/our-video.mp4" type="video/mp4">
+    <source src="https://example.com/our-video.webm" type="video/webm">
+    <source src="https://example.com/our-video.ogg" type="video/ogg">
+</video>
+
+<b>title</b> - заголовок во вкладке браузера (50-80 символов)  
+<b>meta</b>: 
+- <b>name="description"</b>. Атрибут name указывает на то, какой тип метаинформации описывается в теге  
+- <b>content</b>. Атрибут content указывает саму информацию
+
+<meta name="description" content="Бесплатные практические уроки по программированию для тех, кто начинает с нуля.">
+
+Ключевые слова:  
+<meta name="keywords" content="программирование, курсы, HTML, CSS">
