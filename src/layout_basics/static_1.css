@@ -1,0 +1,42 @@
+.content {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    height: 400px;
+    width: 350px;
+}
+
+.img_land {
+    height: 200px;
+    width: 350px;
+}
+
+.tourism {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(76, 76, 77);
+    text-align: center;
+    height: 200px;
+    width: 350px;
+}
+
+.tourism h2 {
+    font-weight: normal;
+}
+
+.tourism p {
+    font-size: 0.8em;
+    margin: 20px 30px;
+}
+
+.tourism button {
+    border: none;
+    border-radius: 15px;
+    padding: 10px 25px;
+    background: rgb(43, 195, 226);;
+    color: white;
+    font-size: 0.8em;
+}
+
+.dots {
+    color: rgb(43, 195, 226);
+    font-size: 50px;
+    margin: -5px auto;
+}
