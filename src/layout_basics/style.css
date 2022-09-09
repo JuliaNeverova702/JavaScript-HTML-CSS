@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(227, 227, 227);
+}
+
+.content {
+    background-color: white;
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 350px;
+    height: 350px;
+}
+
+button {
+    background-color: rgb(183, 141, 80);
+    color: white;
+    text-align: center;
+    width: 338px;
+    height: 35px;
+}
+
+.checkbox {
+    font-style: italic;
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.input {
+    width:338px;
+    height:30px;
+    font-size: 16px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 25px;
+}

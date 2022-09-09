@@ -1,64 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href="style.css" rel="stylesheet">
         <meta charset="utf-8">
         <title>Форма для ввода</title>
-        <style>
-            body {
-                background-color: rgb(227, 227, 227);
-            }
-            .welcome {
-                background-color: white;
-                height: 300px;
-                width: 500px;
-            }
-            .welcome-1 {
-                padding-top: 50px;
-                padding-bottom: 20px;
-                text-align: center;
-                font-size: 25px;
-                font-weight: bold;
-            }
-            button {
-                background-color: rgb(183, 141, 80);
-                color: white;
-            }
-            form {
-                /* padding-left: 10px; */
-                /* padding-top: 30px; */
-                font-size: 30px;
-                text-align: center;
-            }
-            .checkbox {
-                padding-left: 290px;
-                font-style: italic;
-            }
-        </style>
     </head>
 
     <body>
-        <div class="welcome">
-            <div class="welcome-1">Добро пожаловать!</div>
-            <!-- <center> -->
-                <form>
-                    <!-- <label class="text"> -->
-                        <input type="text" placeholder="Логин" style="width:338px;height:30px">
-                    <!-- </label>
-                    <label> -->
-                        <input type="text" placeholder="Пароль" style="width:338px;height:30px">
-                    <!-- </label> -->
+        <div class="content">
+            <div class="welcome">
+                <p class="text">Добро пожаловать!</p>
+                <form class="wrap">
+                    <input class="input" type="text" placeholder="Логин">
+                    <input class="input" type="password" placeholder="Пароль">
                 </form>
-
             <br>
             <label class="checkbox">
                 <input type="checkbox">Запомнить меня 
             </label>
             <br>
-            <p style="text-align: center">
-                <button style="width:338px;height:35px">Войти</button>
-            </p>
-            <!-- <div class="button">Войти</div> -->
-        </div>
+                <button>Войти</button>
+            </div>
+        </div> 
     </body>
 
 </html>
