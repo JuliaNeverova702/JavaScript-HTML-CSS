@@ -19,6 +19,7 @@
 
 .tourism h2 {
     font-weight: normal;
+    margin: 2px;
 }
 
 .tourism p {
@@ -26,7 +27,7 @@
     margin: 20px 30px;
 }
 
-.tourism button {
+.more {
     border: none;
     border-radius: 15px;
     padding: 10px 25px;
@@ -36,7 +37,12 @@
 }
 
 .dots {
-    color: rgb(43, 195, 226);
-    font-size: 50px;
-    margin: -5px auto;
+    border: none;
+    background-color: rgb(43, 195, 226);
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2px;
+    border-radius: 20px;
 }
