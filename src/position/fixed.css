@@ -1,0 +1,9 @@
+.content p {
+    background-color: rgb(176, 237, 245);
+    padding: 10px;
+    text-align: left;
+    width: 150px;
+    position: fixed;
+    right: 10px;
+}
+
