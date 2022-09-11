@@ -1,0 +1,12 @@
+.content {
+    position: sticky;
+    top: 0;
+    background-color: rgb(176, 43, 213);
+    padding: 10px;
+}
+
+.button {
+    color: white;
+    padding: 10px;
+
+}
