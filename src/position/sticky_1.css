@@ -37,7 +37,7 @@
 .social  {
     margin-top: 100px;
     position: sticky;
-    top: 0;
+    top: 5px;
 }
 
 .main-footer {
