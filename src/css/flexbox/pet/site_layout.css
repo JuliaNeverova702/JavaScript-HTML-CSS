@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#main {
+    display: flex;
+    min-height: calc(100vh - 20vh);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer, article, nav, aside {
+    padding: 0.5em; /* размер относительно шрифта*/
+}
+
+header, footer {
+    background: rgb(122, 192, 168);
+    height: fit-content;
+}
+
+header {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.choice_header {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* растяжка блока статьи; по умолчанию под размер текста */
+#main > article {
+    flex: 8;
+}
+
+/* '>' - поиск среди прямых потомков */
+#main > nav, 
+#main > aside {
+  /* vw – 1% ширины окна */
+  background: beige;
+}
+
+#main > nav {
+    flex: 0;
+    order: -1;
+}
+
+#main > aside {
+    display: flex;
+    flex-direction: column;
+    width: 215px;
+}
+
+#food > li {
+    font-weight: bold;
+}
+
+a {
+    color: #767575; /* Цвет обычной ссылки */ 
+    text-decoration: none; /* Убираем подчёркивание у ссылок */
+}
+   
+a:visited {
+    color: #009595; /* Цвет посещённой ссылки */
+} 
+   
+a:hover {
+    color: #ffffff; /* Цвет ссылки при наведении */ 
+    text-decoration: underline; /* Добавляем подчёркивание */
+}
+
+.recommend a {
+    color: #ffa321; /* Цвет обычной ссылки */ 
+    text-decoration: none; /* Убираем подчёркивание у ссылок */
+}
+
+.recommend a:hover {
+    color: #040404; /* Цвет ссылки при наведении */ 
+    text-decoration: underline; /* Добавляем подчёркивание */
+}
+
+.recommend {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
