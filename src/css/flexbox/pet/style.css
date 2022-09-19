@@ -18,7 +18,8 @@ header, footer, article, nav, aside {
 
 header, footer {
     background: rgb(122, 192, 168);
-    height: fit-content;
+    min-height: fit-content;
+    height: 10vh;
 }
 
 header {
@@ -40,21 +41,25 @@ header {
 }
 
 /* '>' - поиск среди прямых потомков */
+/* vw – 1% ширины окна */
+
 #main > nav, 
 #main > aside {
-  /* vw – 1% ширины окна */
+    /* flex: 1 0 30vw; */
   background: beige;
 }
 
 #main > nav {
-    flex: 0;
+    flex: 2;
     order: -1;
+
 }
 
 #main > aside {
+    flex: 2;
     display: flex;
     flex-direction: column;
-    width: 215px;
+
 }
 
 #food > li {
@@ -76,9 +81,13 @@ a:hover {
 }
 
 .recommend a {
-    color: #ffa321; /* Цвет обычной ссылки */ 
+    color: #767575; /* Цвет обычной ссылки */ 
     text-decoration: none; /* Убираем подчёркивание у ссылок */
 }
+
+.recommend a:visited {
+    color: #c27c19; /* Цвет посещённой ссылки */
+} 
 
 .recommend a:hover {
     color: #040404; /* Цвет ссылки при наведении */ 
@@ -93,8 +102,17 @@ a:hover {
     flex-direction: column;
 }
 
+.block {
+    background-color: rgb(238, 238, 238);
+    height: 350px;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
 
 footer {
     display: flex;
     flex-direction: column;
+    min-height: fit-content;
 }
